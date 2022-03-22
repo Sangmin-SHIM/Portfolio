@@ -650,7 +650,12 @@ p {
 }
 
 /* Responsive Web */
+@media screen and (max-width: 972px) {
 
+  .card{
+    width: 250px;
+  }
+}
 @media screen and (max-width: 768px) {
   :root {
     /* Font Size */
@@ -800,5 +805,17 @@ p {
 
   .category__count{
     display: none;
+  }
+
+  .home__content{
+    padding-top:10px;
+  }
+
+  .about__jobs{
+    padding-top:50px;
+  }
+
+  .work__projects .project{
+    margin-bottom:20px;
   }
 }
