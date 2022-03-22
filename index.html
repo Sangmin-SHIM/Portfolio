@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangmin Portfolio</title>
+    <meta name="description" content="Portfolio for Software Engineer Sangmin SHIM">
+    <meta name="author" content="Sangmin SHIM">
+
+    <!--FontAwesome Kit-->
+    <script src="https://kit.fontawesome.com/da11f279bc.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- Google Fonts for CSS
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    -->
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="imgs/favicon_logo.png">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="styls.css">
+    <!--Main JS-->
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="imgs/logo.png" alt="logo">
+            <a href="#">Sangmin SHIM</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-link="#home">Accueil</li>
+            <li class="navbar__menu__item" data-link="#about">A Propos</li>
+            <li class="navbar__menu__item" data-link="#skills">Compétences</li>
+            <li class="navbar__menu__item" data-link="#work">Mes Projets</li>
+            <li class="navbar__menu__item" data-link="#testimonial">Recommandation</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+        
+        <!--Toggle Bar  -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img class="home__avatar" 
+            src="imgs/Sangmin SHIM.jpg" 
+            alt="Sangmin's Photo"/>
+            <div class="home__content">
+                <h2 class="home__title">Sangmin SHIM</h2>
+                <h3 class="home__description">A la recherche d'une alternance (Dév Web)</h3>
+                <button class="home__contact" data-link="#contact">Contact Me</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>A propos de moi</h1>
+        <p style="text-align: left;"> &nbsp;Jeune homme souriant, motivé et professionnel. <br> Originaire de Corée du sud, arrivant en France en Septembre 2021 <br> pour étudier  l'informatique(Concepteur Développeur d'Applications), déterminé pour me faire connaître sur le réseau professionnel.</p>
+        <div class="about__majors">
+            <div class="cards">
+                <div class="card">
+                    <div class="about_select card1">
+                        <img  
+                        src="imgs/front.png" 
+                        style="width:100%; height:100%;">                    
+                    </div>
+                    <div class="rhombus">
+                        <i class="fas fa-angle-double-down"></i>
+                    </div>
+                    <div>
+                            <span>
+                                
+                                - HTML <br>
+                                - CSS <br>
+                                - JavaScript
+                            
+                            </span>               
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="about_select card1">
+                        <img  
+                        src="imgs/back.png" 
+                        style="width:100%; height:100%;">                    
+                    </div>
+                    <div class="rhombus">
+                        <i class="fas fa-angle-double-down"></i>
+                    </div>
+                    <div>
+                            <span>
+                                
+                                - Python <br>
+                                - Java <br>
+                                - PHP
+                            
+                            </span>               
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="about_select card1">
+                        <img  
+                        src="imgs/database.png" 
+                        style="width:100%; height:100%;">                    
+                    </div>
+                    <div class="rhombus">
+                        <i class="fas fa-angle-double-down"></i>
+                    </div>
+                    <div>
+                            <span>
+                                
+                                - SQL <br> 
+                                - Analyse des données <br>
+                                - Visualisation des données
+                            
+                            </span>               
+                    </div>
+                </div>
+            </div>
+            
+  
+        </div>
+        <div class="about__jobs">
+            <h1>Mes expériences</h1>
+            <h2> Pour plus de détails, consultez mon LinkedIn
+                <a href="https://www.linkedin.com/in/sangminshim/" target="_blank">
+                    <i class="fa fa-linkedin-square" style="color: #c2d42c;"></i>
+                </a> 
+            </h2>
+            <div class="job">
+               <div class="job__logo__box">
+                    <img src="imgs/jobs/zawinefrance.jpg" alt="zawine_france" style="width:100px" class="job__logo">
+                    <p class="job__name">Zawine France</p>
+                </div>
+                    <div class="job__description">
+                        <p class="job__explication">
+                            - Mise en page d'un siteweb (PHP)
+                        </p>
+                        
+                        <p class="job__explication">
+                            - Amélioration d'un site déjà existant (https://www.zawinefrance.fr/)              
+                        </p>
+                        <p class="job__explication">
+                            - Maîtrise de la base de données 
+                        </p>
+                        <p class="job__explication">
+                            - Référence sur quelques sites                                                   
+                        </p>
+                        <p class="job__period">2020</p>
+                    </div>
+            </div>
+            <div class="job">
+                <div class="job__logo__box">
+                    <img src="imgs/jobs/gaonsoft.jpg" alt="gaonsoft" style="width:100px" class="job__logo">
+                    <p class="job__name">Gaon Soft</p>
+                </div>
+                    <div class="job__description">
+                        <p class="job__explication">
+                            - Développement pour plusieurs domaines : logistique, transport et gestion des stocks, gestion des ventes et des &nbsp;&nbsp; achats, planification de la production, management de projets
+                        </p>
+                        
+                        <p class="job__explication">
+                            - Langages(Outils) utilisés en ERP & MES : JAVA, Spring Framework, SQL (ORACLE, PL / SQL), HTML, CSS, JavaScript
+                        </p>
+                        <p class="job__period">2021</p>
+
+                    </div>
+            </div>
+            <div class="job">
+                <div class="job__logo__box">
+                    <img src="imgs/jobs/ilariaacademy.png" alt="ilaria_academy" style="width:100px" class="job__logo">
+                    <p class="job__name">Ilaria Academy</p>
+                </div>
+                <div class="job__description">
+                    <p class="job__explication">
+                    - Développement application web pour visualisation de données politiques au niveau de bureaux de vote (GeoData, &nbsp; Pandas par Python)
+                    </p>
+                    <p class="job__explication">
+                    - Création d'un site de cours en ligne & de coaching (WordPress)
+                    </p>
+                    <p class="job__explication">
+                    - Organisation des fichiers
+                    </p>
+                    <p class="job__explication">
+                    - Documentation technique
+                    </p>
+                        <p class="job__period">2022</p>
+                    </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Mes compétences</h1>
+            <h2>Compétences & Outils</h2>
+            
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Compétences</h3>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>HTML</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:100%;"></div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>CSS</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:100%;"></div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>Python</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:100%;"></div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>SQL</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:100%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>Java</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:90%;"></div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:80%;"></div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>PHP</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:70%;"></div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>WordPress</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:70%;"></div>
+                            </div>
+                    </div>
+                    <div class="skill">
+                            <div class="skill__description">
+                                <span>C#</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:70%;"></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Outils</h3>
+                        <ul class="tools__list">
+                            <li><span>- Visual Studio Code</span></li>
+                            <li><span>- Visual Studio</span></li>
+                            <li><span>- Pycharm</span></li>
+                            <li><span>- Jupyter</span></li>
+ 
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>- Test Driven Development</span></li>
+                            <li><span>- Data Visualization</span></li>
+                            <li><span>- Google Analytics</span></li>
+                            <li><span>- Figma</span></li>
+                            <li><span>- Canva</span></li>
+                            <li><span>- Git</span></li>
+                            <li><span>- SVN</span></li>
+
+
+                            
+                        </ul>
+                    </div>
+                </div>   
+    </section>
+
+
+    <!-- Works -->
+    <section id="work" class="section">    
+        <div class="section__container">
+            <h1>Mes projets</h1>
+            <h2>Disponibles sur mon Github 
+                <a href="https://github.com/Sangmin-SHIM" target="_blank">
+                    <i class="fab fa-github" style="color: #c2d42c;"></i>
+                </a> 
+            </h2>
+            
+
+            <div class="work__categories">
+                <button class="category__btn active" data-filter="*">Tout<span class="category__count">14</span></button>
+                <button class="category__btn" data-filter="frontend">Pédagogiques<span class="category__count">6</span></button>
+                <button class="category__btn" data-filter="backend">Personnels <span class="category__count">5</span></button>
+                <button class="category__btn" data-filter="mobile">Professionnels (Stage) <span class="category__count">3</span></button>
+            </div>
+
+            <div class="work__projects">
+                <a 
+                href="https://github.com/Sangmin-SHIM/Annecy_W_Games-C" 
+                class="project mobile"
+                target="_blank"
+                data-type="frontend"> 
+                <img src="imgs/projects/w_annecy.JPG" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>W Annecy</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                       &nbsp; Le but de notre projet est de mettre en place une application qui compétition mondialement reconnue dans la communauté des semi-professionnels du saut en Wingsuit.
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                        #Application
+                        &nbsp;
+                        #C
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                            Voir en détails
+                            <i class="fab fa-brands fa-github"></i>
+                    </span>
+                    
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/ZawineFrance-PHP" 
+                class="project"
+                target="_blank"
+                data-type="mobile"> 
+                <img src="imgs/projects/zawine_france(full).png" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Siteweb Zawine France</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                       &nbsp; Le site web (vente du vin) réalisé par HTML, CSS, JS et PHP en 2018 - 2019 lors de mon premier stage chez Zawine France (6 semaines). Il s'agit de Page d'accueil, page de produits - grands crus, vins de moins de 40 euros -, page d'évènement, blog et page panier pour paiement (avec API Stripe). Toutes les formulaires que le client remplit seront stockés dans la base de données MySQL.
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                        #PHP 
+                        &nbsp; 
+                        #HTML
+                        &nbsp;
+                        #CSS
+                        &nbsp;
+                        #JS
+                    </span>
+                    <br>
+                    <span>
+                        Mai 2019 ~ Juillet 2019
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                        Voir en détails
+                        <i class="fab fa-brands fa-github"></i>
+                    </span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/Dividened_Korea-Python" 
+                class="project"
+                target="_blank"
+                data-type="backend"> 
+                <img src="imgs/projects/devidened_korea.jpg" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Devidened Korea</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; J'aimerais créer une application permettant aux utilisateurs de RECHERCHER directement leur entreprise intéressée. Pour faciliter l'utilisation, j'ai formé une interface utilisateur (UI) comme un bouton, une boîte de message, un défilement, etc. Enfin, les utilisateurs peuvent voir les données visualisées avec un graphique. Ils sont capables de comprendre les changements en un coup d'œil. Avec cette application (appelée "Dividend Tracker Korea"), les utilisateurs peuvent trouver les informations à la fois.
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                        #Application
+                        &nbsp;
+                        #Python
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                        Voir en détails
+                        <i class="fab fa-brands fa-github"></i>
+                    </span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/Pension_Korea-Python" 
+                class="project mobile"
+                target="_blank"
+                data-type="backend"> 
+                <img src="imgs/projects/pension.jpg" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Pension Korea</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                      &nbsp; C'est un calculator pour la pension aux gens à partir de 60 ans. En Corée du sud, à partir de 60 ans on a le droit d'être privilégiés de recevoir la pension selon leur salaire.
+                        Si on repousse l'âge pour en avoir (tout simplement de 60 ans à 65 ans par example) , on touchera plus d'argent mensuellement. Ce calculator permet de faire savoir à partir de quel âge on peut recevoir le plus (seuil de rentabilité).
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                        #Application
+                        &nbsp;
+                        #Python
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                        Voir en détails
+                        <i class="fab fa-brands fa-github"></i>
+                    </span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/OsirisWeb-Django" 
+                class="project"
+                target="_blank"
+                data-type="frontend"> 
+                <img src="imgs/projects/osirisweb(full).png" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Siteweb Osiris</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                       &nbsp; Site Web réalisé par Django pour le projet pédagogique. C'est une page vitrine pour le consulting digital.
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                        &nbsp;
+                        #Python
+                        &nbsp;
+                        #Django
+                        &nbsp;
+                        #HTML
+                        &nbsp;
+                        #CSS
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                        Voir en détails
+                        <i class="fab fa-brands fa-github"></i>
+                    </span>
+
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/TESLI-WordPress-" 
+                class="project"
+                target="_blank"
+                data-type="frontend"> 
+                <img src="imgs/projects/tesli(full).png" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Siteweb Tesli</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; Siteweb réalisé par WordPress pour le projet pédagogique. C'est une page vitrine pour la voiture Tesli.
+                     </span>
+                     <br>
+                     <span style="color:#73aace">
+                         #WordPress
+                     </span>
+                     <br>
+                     <span  style="color :#feb546">
+                         Voir en détails
+                         <i class="fab fa-brands fa-github"></i>
+                     </span>
+                </div>
+                </a>                
+                <a 
+                href="https://github.com/Sangmin-SHIM/ResponsiveWeb" 
+                class="project mobile"
+                target="_blank"
+                data-type="frontend"> 
+                <img src="imgs/projects/responsive.png" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Siteweb Responsif</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; Ceci est un examplaire de site responsif lors de cours à l'EPSI.
+                     </span>
+                     <br>
+                     <span style="color:#73aace">
+                        #HTML
+                        &nbsp;
+                        #CSS
+                        &nbsp;
+                        #JS
+                     </span>
+                     <br>
+                     <span  style="color :#feb546">
+                         Voir en détails
+                         <i class="fab fa-brands fa-github"></i>
+                     </span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/Momentum_JS" 
+                class="project mobile"
+                target="_blank"
+                data-type="backend"> 
+                <img src="imgs/projects/momentum.PNG" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Web Momentum</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; C'est une application web par JavaScript pour lister ce que l'on doit faire chaque jour (To Do List) avec l'heure actuelle. 
+                        API Météo appliqué.
+                     </span>
+                     <br>
+                     <span style="color:#73aace">
+                        #Application
+                        &nbsp; 
+                        #HTML
+                        &nbsp;
+                        #CSS
+                        &nbsp;
+                        #JS
+                     </span>
+                     <br>
+                     <span  style="color :#feb546">
+                         Voir en détails
+                         <i class="fab fa-brands fa-github"></i>
+                     </span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/nachosagency" 
+                class="project mobile"
+                target="_blank"
+                data-type="mobile"> 
+                <img src="imgs/projects/ilaria.png" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Siteweb Ilaria Academy</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; Réaliser avec WordPress un site permettant de s’inscrire à des modules de formation de quelques jours à quelques semaines. Ce site doit permettre de visualiser : <br>
+                        - les divers cours, <br>
+                        - le programme de chaque cours, <br> 
+                        - les ateliers/exercices proposés, <br>
+                        - les commentaires d’anciens étudiants. 
+                        
+                     </span>
+                     <br>
+                     <span style="color:#73aace">
+                        #WordPress
+                        &nbsp;
+                        #PHP
+                        &nbsp;
+                        #CSS
+                        &nbsp;
+                        #SQL
+                     </span>
+                     <br>
+                     <span>
+                        Janvier 2022 ~ Février 2022
+                     </span>
+                     <br>
+                     <span  style="color :#feb546">
+                         Voir en détails
+                         <i class="fab fa-brands fa-github"></i>
+                     </span>                
+                    </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/Data-Visualisation-Donnees-Politiques" 
+                class="project mobile"
+                target="_blank"
+                data-type="mobile"> 
+                <img src="imgs/projects/plot.PNG" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Tendances les bureaux de vote</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; Faire de l’analyse statistique sur les campagnes politiques, les hommes politiques et les bureaux de votes. Faire de la data-visualisation sur ces données.
+                     </span>
+                     <br>
+                     <span style="color:#73aace">
+                        #DataAnalysis
+                        &nbsp;
+                        #DataVizualitation
+                        &nbsp;
+                        #Python
+                     </span>
+                     <br>
+                     <span>
+                        Janvier 2022 ~ Février 2022
+                     </span>
+                     <br>
+                     <span  style="color :#feb546">
+                         Voir en détails
+                         <i class="fab fa-brands fa-github"></i>
+                     </span>                
+
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/Puissance4" 
+                class="project mobile"
+                target="_blank"
+                data-type="frontend"> 
+                <img src="imgs/projects/puissance4.JPG" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Puissance4</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; Puissance 4 (appelé aussi parfois 4 en ligne) est un jeu de stratégie combinatoire abstrait, commercialisé pour la première fois en 1974 par la Milton Bradley Company, plus connue sous le nom de MB et détenue depuis 1984 par la société Hasbro.
+                        Le jeu dans terminal par C# lors de cours C# fondamentaux à l'éole EPSI.
+                     </span>
+                     <br>
+                     <span style="color:#73aace">
+                        #Application
+                        &nbsp; 
+                        #C#
+                     </span>
+                     <br>
+                     <span  style="color :#feb546">
+                         Voir en détails
+                         <i class="fab fa-brands fa-github"></i>
+                     </span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/SurveyForm" 
+                class="project mobile"
+                target="_blank"
+                data-type="backend"> 
+                <img src="imgs/projects/epsisurvey.png" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Web Questionnaire de satisfaction</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; C'est une application Web pour faire un sondage "Questionnaire de Satisfaction" pour la fin des cours d'école EPSI.
+                            Elle distribue aux élèves par mail le fichier Excel dans lequel le lien Google Form de chaque cours pour remplir ce questionnaire.
+                            Le problème est que les élèves n'ont pas très envie d'ouvrir chaque lien pour répondre le sondage. Donc, pour résoudre cet inconvénient j'ai réalisé une platforme pour laquelle les élèves répondent facilement.
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                    #Application
+                    &nbsp; 
+                    #Python
+                    &nbsp;
+                    #Django
+                    &nbsp;
+                    #Heroku_Server
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                        Voir en détails
+                        <i class="fab fa-brands fa-github"></i>
+                    </span>
+                    
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/SurveyForm" 
+                class="project mobile"
+                target="_blank"
+                data-type="backend"> 
+                <img src="imgs/projects/epsiresult.png" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Web Résultat de questionnaire</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; Ceci est le résultat de questionnaire fourni par étudiants. A côté d'administration,
+                        Ils peuvent tout voir le résultat de données visualisées en forme de graphe.
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                    #Application
+                    &nbsp; 
+                    #Python
+                    &nbsp;
+                    #Django
+                    &nbsp;
+                    #Heroku_Server
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                        Voir en détails
+                        <i class="fab fa-brands fa-github"></i>
+                    </span>
+                </div>
+                </a>
+                <a 
+                href="https://github.com/Sangmin-SHIM/Pirates_Pacifiques_JeuPython" 
+                class="project mobile"
+                target="_blank"
+                data-type="frontend"> 
+                <img src="imgs/projects/pythonprojet.PNG" 
+                alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Jeu Pirates pacifiques</h3>
+                    <span style="text-align:left; padding: 0 10px;">
+                        &nbsp; C'est un jeu de plateforme réalisé par Python avec sa bibliothèque Tkinter lors de cours à EPSI. 
+                        Ce cours a le but pour apprendre class Diagram relationnel et l'utilisation de classe et définition offerts par intervenant Jean Aymeric Diet.
+                    </span>
+                    <br>
+                    <span style="color:#73aace">
+                    #Application
+                    &nbsp; 
+                    #Python
+                    &nbsp;
+                    #UML
+                    </span>
+                    <br>
+                    <span  style="color :#feb546">
+                        Voir en détails
+                        <i class="fab fa-brands fa-github"></i>
+                    </span>
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonial -->
+    <section id="testimonial" class="section">
+        <div class="section__container">
+            <h1>Recommandation</h1>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="imgs/testimonials/testimonial.jpg" 
+                    alt="" 
+                    class="testimonial__avatar">
+                    <div class="testimonial__speech-bubble">
+                        <p> &nbsp; J'ai eu la chance d'avoir Sangmin comme étudiant à l'EPSI Bordeaux durant l'année 2021/2022. Lorsque j'ai recherché un profil pour m'aider sur un projet de startup dans le Data Mining, la Data Visualisation et le Développement Web, Sangmin m'a fait parvenir sa candidature.
+
+                            Après 2 mois de stage, je confirme mon premier point de vue: Sangmin est un très bon élément, passionné et débrouillard/autonome. Il a su comprendre ma vision et mettre en place l'architecture technique nécessaire pour mener à bien les 2 missions que je lui avait confié. Vous pouvez faire confiance à Sangmin si vous recherchez un profil de talent dans le développement. Pour ma part, je continuerai à faire appel parfois à ses compétences pour mes projets 👍</p>
+                        <br>
+                        <p class="name">
+                            <a href="https://www.linkedin.com/in/gilbertnzeka/"><i class="fa fa-linkedin-square"></i> &nbsp; Gilbert NZEKA</a> /Ilaria Academy (2022)</p>
+                    </div>
+                </div>
+                <!-- <div class="testimonial">
+                    <div class="testimonial__speech-bubble">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae suscipit neque? Deleniti eveniet voluptatibus accusantium rerum voluptas quam dolores quia quos praesentium modi est itaque, iusto,
+                        voluptatum dignissimos placeat.</p>
+                        <p class="name"><a href="#">Gerald</a> /Zawine</p>
+                    </div>
+                    <img src="imgs/testimonials/testimonial.jpg" 
+                    alt="" 
+                    class="testimonial__avatar">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Contactez-Moi</h1>
+        <h3 class="contact__email">tkdals4723@gmail.com</h3>
+        <div class="contact__links">
+            <a href="https://github.com/Sangmin-SHIM" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sangminshim/" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+            <a href="https://devsangminshim.tistory.com/1" target="_blank">
+                <i class=" fa fa-solid fa-blog"></i>            
+            </a>
+        </div>
+        <p class="contact__rights">2022 Sangmin SHIM - All Rights Reserved</p>
+ 
+    <!-- Arrow Up -->
+    <button href="#">
+        <i class="fas fa-arrow-alt-circle-up arrow-up"></i>
+    </button>
+    </section>
+
+
+</body>
+</html>
