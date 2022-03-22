@@ -758,4 +758,47 @@ p {
     bottom: 16px;
     margin: 5px;
   }
+  .job{
+    flex-direction: column;
+  }
+
+  h1{
+    font-size: var(--font-medium)
+  }
+
+  h2{
+    font-size: var(--font-small)
+  }
+
+  #home{
+    background:url(imgs/background2.jpg)
+  }
+
+  span{
+    font-size:var(--font-micro)
+  }
+
+  .about_select{
+    height: 50%;
+  }
+  .card{
+    height:250px;
+  }
+  .rhombus{
+    width: 50px;
+    height: 50px;
+  }
+
+  .job__description{
+    margin:10%;
+    margin:auto;
+  }
+
+  .job__explication{
+    font-size:var(--font-small)
+  }
+
+  .category__count{
+    display: none;
+  }
 }
