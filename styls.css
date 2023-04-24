@@ -793,15 +793,16 @@ p {
     font-size:var(--font-micro)
   }
 
-  .about_select{
-    height: 50%;
-  }
   .card{
-    height:250px;
+    height:500px;
+  }
+  .about_select img{
+    width: 40% !important;
+    height: 60% !important;
   }
   .rhombus{
-    width: 25px;
-    height: 25px;
+    width: 60px;
+    height: 60px;
   }
 
   .job__description{
@@ -829,4 +830,5 @@ p {
   .work__projects .project{
     margin-bottom:20px;
   }
+
 }
