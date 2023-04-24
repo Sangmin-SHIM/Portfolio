@@ -1,8 +1,6 @@
 'use strict';
 
-
 // Scrolling for NavBar Transparent when it is on the top
-
 const navbar = document.querySelector('#navbar');
 const navbarHeight = navbar.getBoundingClientRect().height;
 
@@ -14,8 +12,6 @@ document.addEventListener('scroll',() =>{
         navbar.classList.remove('navbar--dark');
     }
 })
-
-
 
 // Handle scrolling when tapping on the navbar menu
 const navbarMenu = document.querySelector('.navbar__menu');
@@ -33,7 +29,6 @@ navbarMenu.addEventListener('click', (event) =>{
 
 // Navbar toggle button for small screen
 const toggle = document.querySelector('.navbar__toggle-btn');
-
 toggle.addEventListener('click',(event)=>{
     navbarMenu.classList.toggle('open');
     
@@ -77,13 +72,10 @@ document.addEventListener('scroll',()=>{
 });
 
 // Arrow Up Button Click => Home
-
 arrowUp.addEventListener('click',(event)=>{
     
     scrollIntoView('#home');
 });
-
-
 
 
 // Work Selector with Button
@@ -102,14 +94,8 @@ workCategories.addEventListener('click',(event)=>{
 
     workProjects.classList.add('anim-out');
 
-    // for(let project of projects)
-    // for(let i=0; i< projects.legnth; i++){
-    //  project=projects[i];
-    // }
-   
     setTimeout(()=> {
         projects.forEach((project) => {
-            console.log(project.dataset.type);
     
             if(filter === '*' || filter === project.dataset.type){
                 project.classList.remove('invisible')
@@ -125,9 +111,7 @@ workCategories.addEventListener('click',(event)=>{
 
 })
 
-
 // 1. 모든 섹션 요소들과 메뉴 아이템들을 가지고 온다.
-
 const sectionIds = [
     '#home',
     '#about',
@@ -156,7 +140,6 @@ function scrollIntoView(selector){
 }
 
 // 2. IntersectionObserver를 이용해서 모든 섹션들을 관찰한다.
-
 const observerOptions = {
     root: null, // viewPort
     rootMargin: '0px',
@@ -192,11 +175,9 @@ window.addEventListener('wheel',()=>{
     
     else if (Math.round(window.scrollY + window.innerHeight) === document.body.clientHeight || window.scrollY + window.innerHeight === document.body.clientHeight)
     {
-        console.log("Hey");
         selectedNavIndex= navItems.length-1;
     }
         
     selectNavItem(navItems[selectedNavIndex]);
 })
 // 3. 보여지는 섹션에 해당하는 메뉴 아이템을 활성화 시킨다.
-

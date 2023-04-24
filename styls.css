@@ -10,14 +10,15 @@
   --color-green: #c2d42c;
   --color-dark-green: #A3DA64;
   --color-black: #4d4d4d;
-  --color-dark-grey: #4d4d4d;
+  --color-dark-grey: #4F5459;
   --color-grey: #616161;
   --color-light-grey: #737979;
   --color-blue: #73aace;
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
-  --color-black: #000000;
   --color-gray: #e4e2e9;
+  --color-gun-metal: #2B3132;
+  --color-powder-blue: #B2C7F0;
 
 
   /* Font Size */
@@ -106,7 +107,7 @@ p {
 
 .navbar__logo a {
   position: relative;
-  transform: translate(5px, 15px);
+  transform: translate(5px, 10px);
 }
 
 .navbar__logo {
@@ -126,7 +127,7 @@ p {
 
 /* JS ScrollY */
 #navbar.navbar--dark {
-  background-color: var(--color-green);
+  background-color: var(--color-gun-metal);
   padding: 8px;
   z-index: 1;
 }
@@ -134,7 +135,9 @@ p {
 .navbar__menu {
   display: flex;
 }
-
+.navbar__logo p {
+  font-weight: var(--weight-bold);
+}
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
@@ -148,7 +151,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-dark-green);
+  background-color: var(--color-dark-grey);
   border: 1px solid var(--color-white);
 }
 
@@ -172,8 +175,9 @@ p {
   transition: all var(--animation-duration) ease-in-out;
   min-height: 100vh;
 }
+
 .home__content{
-  padding-top:145px;
+  padding-top:10px;
 }
 
 .home__avatar {
@@ -193,7 +197,7 @@ p {
 }
 
 .home__contact:hover {
-  background-color: var(--color-dark-green);
+  background-color: var(--color-dark-grey);
 }
 
 /* Section Common */
@@ -261,12 +265,12 @@ p {
   flex-direction: column;
 }
 
-.job__name,
 .job__period {
   color: var(--color-light-grey);
 }
 
 .job__name {
+  font-weight: var(--weight-bold);
   font-size: var(--font-small);
 }
 
@@ -287,11 +291,17 @@ p {
   text-align: left;
   width: 300px;
   height: 400px;
-  background: rgba(var(--color-green-rgba), 0.6);
+  background-color: var(--color-gun-metal);
   border-radius: var(--border-radius);
-  padding: 20px;
+  color: var(--color-white);
+  padding: 20px 20px 50px 20px;
   margin: 20px 10px 10px 0px;
   box-shadow: 20px 20px 50px rgba(var(--color-shadow), 0.5);
+}
+
+.spec {
+  padding-left:15px;
+  padding-bottom: 10px;
 }
 
 .rhombus {
@@ -300,9 +310,9 @@ p {
   top: -5%;
   left: 50%;
   transform: translate(-50%);
-  width: 80px;
-  height: 80px;
-  background-color: rgba(var(--color-yellow-rgba), 1);
+  width: 50px;
+  height: 50px;
+  background-color:var(--color-powder-blue);
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 50% 100%, 0 25%);
   clip-path: polygon(50% 0%, 100% 25%, 50% 100%, 0 25%);
   color: var(--color-black);
@@ -399,7 +409,7 @@ p {
 
 /* Skills */
 #skills {
-  background-color: var(--color-yellow);
+  background-color: var(--color-light-white);
 }
 
 .skillset {
@@ -467,7 +477,7 @@ p {
 
 .category__btn.active,
 .category__btn:hover {
-  background-color: var(--color-green);
+  background-color: var(--color-gun-metal);
   color: var(--color-white);
 }
 
@@ -478,7 +488,7 @@ p {
 }
 
 .category__count {
-  background-color: var(--color-orange);
+  background-color: var(--color-powder-blue);
   border-radius: 50%;
   color: var(--color-white);
   width: 24px;
@@ -547,7 +557,7 @@ p {
   transform: translateX(0px);
 }
 .project__description h3 {
-  color: var(--color-orange);
+  color: var(--color-powder-blue);
 }
 
 .project__description h3:after {
@@ -603,11 +613,11 @@ p {
 }
 
 .testimonial__speech-bubble a {
-  color: var(--color-brown);
+  color: var(--color-gun-metal);
 }
 /* Contact */
 #contact {
-  background-color: var(--color-green);
+  background-color: var(--color-gun-metal);
 }
 
 .contact__title,
@@ -627,7 +637,7 @@ p {
 
 .contact__links i:hover {
   transform: scale(1.1);
-  color: var(--color-dark-brown);
+  color: var(--color-powder-blue);
   transition: all var(--animation-duration) ease-in;
 }
 
@@ -638,7 +648,7 @@ p {
   right: 0%;
   margin: 30px;
   font-size: 50px;
-  color: var(--color-green);
+  color: var(--color-gun-metal);
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--animation-duration) ease-in;
@@ -677,7 +687,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     box-shadow: 1px 1px 12px #555;
-    background-color: var(--color-green);
+    background-color: var(--color-gun-metal);
     z-index: 1;
   }
 
@@ -790,8 +800,8 @@ p {
     height:250px;
   }
   .rhombus{
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
   }
 
   .job__description{
@@ -802,6 +812,7 @@ p {
   .job__explication{
     font-size:var(--font-small)
   }
+
 
   .category__count{
     display: none;
